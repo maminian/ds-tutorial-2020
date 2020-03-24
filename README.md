@@ -1,17 +1,20 @@
-# ds-tutorial-2020
+# What is this?
 
 This is a small repository containing links and helper code as part of my workshop in the PAC Boulder tutorial series, see https://www.colorado.edu/pac/tutorials
 
-## Data sources
+# Data sources
 
-"Iris" data set via UC Irvine Machine Learning Repository: https://archive.ics.uci.edu/ml/datasets/Iris
-Data folder ("bezdekIris.data" is the main data file): https://archive.ics.uci.edu/ml/machine-learning-databases/iris/
+## "Iris" data set via UC Irvine Machine Learning Repository: 
+* Link: https://archive.ics.uci.edu/ml/datasets/Iris
+* Data folder ("bezdekIris.data" is the main data file): https://archive.ics.uci.edu/ml/machine-learning-databases/iris/
 
-"Wine quality" data set via UC Irvine Machine Learning Repository: https://archive.ics.uci.edu/ml/datasets/Wine+Quality
-Data folder (the two csv files): https://archive.ics.uci.edu/ml/machine-learning-databases/wine-quality/
+## "Wine quality" data set via UC Irvine Machine Learning Repository: 
+* Link: https://archive.ics.uci.edu/ml/datasets/Wine+Quality
+* Data folder (the two csv files): https://archive.ics.uci.edu/ml/machine-learning-databases/wine-quality/
 
-bioRxiv CoV-related papers (go to "Download CORD-19", choose the "bioRxiv/medRxiv subset"): https://pages.semanticscholar.org/coronavirus-research
+## bioRxiv novel coronavirus/SARS-CoV-2-related papers 
+* Link: (go to "Download CORD-19", choose the "bioRxiv/medRxiv subset"): https://pages.semanticscholar.org/coronavirus-research
 
-## Helper files (use to follow along)
+# Helper files (use to follow along)
 
-See later
+None for now, come back later!
