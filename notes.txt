@@ -1,0 +1,14 @@
+start coding: around 2:45pm, Apr 2
+
+iris dataset - 
+-- past experience let me do the csv reader approach after two errors
+-- studying data led me to know I should skip the last row
+-- some knowledge of numpy let me convert the numerical part pretty easy
+-- pulled out everything into data and labels
+-- Time: 2:56pm.
+-- Wrote these notes down.
+
+wine dataset - (start 2:58pm)
+-- Vague memory peeking at the data => pandas.read_csv() should probably work fine
+-- Attempt 1 (white wine data): oh no, the data is semicolon-separated. Loading a hundred 
+    datasets before has led me to memorize optional arguments to this function.
