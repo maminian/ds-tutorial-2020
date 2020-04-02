@@ -1,0 +1,4 @@
+Put the downloaded data in this folder if you want to make 
+your life as simple as possible using the utils.py scripts!
+
+You can leave this file if you like, to keep this folder nice and warm.
