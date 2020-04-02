@@ -1,4 +1,12 @@
+Made tea (earl grey, hot).
 start coding: around 2:45pm, Apr 2
+
+First big task is writing the utilities file which will 
+help simplify loading the datasets; both for myself and 
+for those following along. Some of the tutorial will repeat 
+what I do here, because it's naive not to include a bit of 
+this part of the labor in a tutorial, but ultimately a 
+quick loading script is appreciated by all.
 
 iris dataset - 
 -- past experience let me do the csv reader approach after two errors
@@ -12,3 +20,37 @@ wine dataset - (start 2:58pm)
 -- Vague memory peeking at the data => pandas.read_csv() should probably work fine
 -- Attempt 1 (white wine data): oh no, the data is semicolon-separated. Loading a hundred 
     datasets before has led me to memorize optional arguments to this function.
+-- Cool - pandas dataframe looks good; 4898 rows, 12 columns. Looks the same as when 
+    I remember loading it into Excel a week ago.
+-- Cool - same procedure works for the red wine. 1599 rows, 12 columns. Column headers 
+    are the same; awesome!
+-- Thought to myself - it would be cool to distinguish the two types of wine, quality be damned.
+    Could make major part of this part of tutorial? Just ("just") need to stack the dataframes.
+-- Ipython plus access to docstring (built-in help) is super handy! StackOverflow be damned.
+-- Ok, just df.append(other_df) Want to (a) add a new column, (b) stack the two.
+-- First line-- df_r['type'] = 'white' (df_r is my reds dataframe -- off to a good start!)
+-- df_r.append( df_w ) -- oh, it returns a new dataframe, not in-place. OK, try again.
+-- Great! Proof of concept done, translate to script.
+-- Wrote the docstring for each of the loading functions; went back and filled in the 
+    half-finished docstring for the iris dataset
+-- Tested the loading scripts for the wine data -- great.
+-- Time: 3:12pm.
+-- git commit for the heck of it here, why not
+-- oh - may want to exclude the datasets folder; using github desktop has picked up the 
+    entire dataset/ folder as candidates for commits!
+
+biorxiv coronavirus dataset - (start: 3:17pm)
+-- Already briefly played with this data with a colleague once - know it's going to be 
+    a small headache. (That's the point of this data anyway, right?)
+-- Something about JSON, blah blah
+-- Files have arbitrary naming scheme; will need glob or similar to gather up all the files 
+    and attach meaning to them (authors, institution, etc) later.
+-- Subconscious in my favor today; "import json" and "json.load(f)" when reading as binary works!
+-- This one takes a few seconds to load... should I make a counter for the impatient?
+-- After a few small bugs -- cool, it loads... except I returned the file reading object, 
+    not the loaded paper itself. derp. This is a small fix, too.
+-- Already wrote the doc; done now. 
+-- Time: 3:30pm.
+-- Just kidding - I didn't write the doc.
+-- Also didn't indicate inputs in the doc. Done with all that now, and committed it.
+-- Time: 3:37pm.
